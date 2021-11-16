@@ -1,0 +1,40 @@
+QWidget{
+        background-color: lightgrey;
+}
+QTabBar::close-button {
+        image: url(icons/close.png)
+}
+QTabBar::close-button:hover {
+        image: url(icons/close_hovered.png)
+}
+QTabBar::tab{
+        border: 1px solid grey;
+        border-radius: 0px;
+        padding : 6px;
+        background: lightgrey;
+        margin-left: -1px;
+}
+QTabBar::tab:selected{
+        border: 1px solid black;
+        background: white;
+	margin-bottom: -1px;
+        margin-left: -1px;
+	border-radius: 3px;
+}
+QLineEdit{
+        selection-color: white;
+        selection-background-color: lightgrey;
+        border: 1px solid grey;
+        border-radius: 3px;
+}
+QLineEdit::Focus{
+        selection-color: white;
+        selection-background-color: lightgrey;
+        border: 1px solid black;
+        border-radius: 3px;
+}
+QToolButton:hover {
+       border: 0px solid black;
+       background-color: white;
+	border-radius: 3px;
+}
